@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RealEkio</string>
+    <string name="signin">Sign In</string>
+    <string name="first_name">Your First Name</string>
+    <string name="last_name">Your Last Name</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="retype">Please retype your password</string>
+    <string name="email">Enter your email here</string>
+</resources>

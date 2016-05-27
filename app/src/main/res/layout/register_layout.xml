@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|left"
+    android:layout_marginLeft="10dp">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name"
+        android:hint="@string/first_name"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name"
+        android:hint="@string/last_name"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="@string/email"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:hint="@string/user_name"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="@string/password"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/retype_password"
+        android:hint="@string/retype"/>
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:text="REGISTER"
+        android:id="@+id/register_confirm"
+        android:onClick="goMain"/>
+
+
+
+</LinearLayout>
